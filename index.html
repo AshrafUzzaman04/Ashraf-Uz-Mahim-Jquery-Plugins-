@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jquery Plugins</title>
     <link rel="icon" href="./imges/jquery_icon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="./WOW-master/css/libs/animate.css" />
     <link
       rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -98,7 +95,7 @@
       </nav>
 
       <!-- logo text div started here -->
-      <div class="logo-block">
+      <div class="logo-block wow bounceInDown" data-wow-duration="2s">
         <div class="shadow-text lighter">
           <span class="l">A</span>
           <span class="i">S</span>
@@ -119,7 +116,7 @@
     <!-- clock div started here -->
 
     <div class="container-fluid thirdContainer">
-      <div class="clock tm">
+      <div class="clock tm wow fadeInRightBig" data-wow-duration="3s">
         <div class="hand hour"></div>
         <div class="hand minute"></div>
         <div class="hand second"></div>
@@ -136,14 +133,14 @@
         <div class="number number11">11</div>
         <div class="number number12">12</div>
       </div>
-      <div class="digital">
+      <div class="digital wow flipInY" data-wow-duration="3s">
         <h1 class="digits hours"></h1>
         <h1 class="digits">:</h1>
         <h1 class="digits minutes"></h1>
         <h1 class="digits">:</h1>
         <h1 class="digits seconds"></h1>
       </div>
-      <div id="date">
+      <div id="date" class="wow rollIn" data-wow-duration="3s">
         <h1 class="date day"></h1>
         <h1 class="date month"></h1>
         <h1 class="date year"></h1>
@@ -299,7 +296,11 @@
     <!-- zoom product div started here -->
 
     <div class="container-fluid col-12 mx-auto p-5 bg-black fivthContainer">
-      <div class="exzoom hidden mx-3" id="exzoom">
+      <div
+        class="exzoom hidden mx-3 wow fadeInRightBig"
+        data-wow-duration="2s"
+        id="exzoom"
+      >
         <div class="exzoom_img_box">
           <ul class="exzoom_img_ul">
             <li><img src="./imges/image (1).jpg" /></li>
@@ -319,7 +320,7 @@
         </p>
       </div>
       <div>
-        <p class="pragraph">
+        <p class="pragraph wow fadeInUp" data-wow-duration="5s">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
           qui, suscipit, optio dolor adipisci placeat necessitatibus impedit
           consectetur quidem iusto accusamus nisi obcaecati distinctio, repellat
@@ -392,9 +393,16 @@
 
     <!-- wow js linked  -->
 
-    <script src="js/wow.min.js"></script>
+    <script src="./WOW-master/dist/wow.min.js"></script>
     <script>
-      new WOW().init();
+      wow = new WOW({
+        boxClass: "wow", // default
+        animateClass: "animated", // default
+        offset: 0, // default
+        mobile: true, // default
+        live: true, // default
+      });
+      wow.init();
     </script>
   </body>
 </html>
