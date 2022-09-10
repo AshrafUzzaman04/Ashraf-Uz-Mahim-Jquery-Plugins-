@@ -1,23 +1,25 @@
-.secondContainer {
-  margin: 0;
-  padding: 0;
-  > ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    > li {
-      height: 40vh;
-      flex-grow: 1;
-    }
-
-    img {
-      max-height: 100%;
-      min-width: 100%;
-      object-fit: cover;
-      vertical-align: bottom;
-    }
+.fivthContainer {
+  min-height: max-content;
+  display: flex;
+  > #exzoom {
+    width: 400px;
+    /*height: 400px;*/
   }
+}
+
+.container {
+  margin: 150px auto;
+}
+.hidden {
+  display: none;
+}
+
+.pragraph {
+  color: #66ff66;
+  font-weight: 500;
+  font-size: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+  text-align: justify;
 }

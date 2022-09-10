@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .firstContainer {
   background: url(https://lively.blackjetdigital.ca/wp-content/uploads/2022/08/LightWoodHeader.jpg)
     no-repeat center center/cover;

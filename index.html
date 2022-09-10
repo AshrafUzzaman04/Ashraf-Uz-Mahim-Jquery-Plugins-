@@ -8,6 +8,10 @@
     <link rel="icon" href="./imges/jquery_icon.png" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <link
@@ -20,14 +24,36 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <link rel="stylesheet" href="./Plugins/text plugins/dist/style.css" />
-    <link
-      rel="stylesheet"
-      href="./Plugins/image-lightbox-medium-cp/example/demo-style.css"
-    />
     <link rel="stylesheet" href="./Plugins/digital-analog/style.css" />
     <link
       rel="stylesheet"
       href="./Plugins/sticky-expanding-sidebar-nav/css/ss-menu.css"
+    />
+    <link
+      href="https://www.jqueryscript.net/css/jquerysctipttop.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./Plugins/modern-photo-gallery/style.css"
+      type="text/css"
+    />
+    <link
+      href="https://www.jqueryscript.net/css/jquerysctipttop.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./Plugins/Product-Carousel-Magnifying-Effect-exzoom/src/jquery.exzoom.css"
+      rel="stylesheet"
+      type="text/css"
     />
     <link rel="stylesheet" href="./Css/style.css" />
   </head>
@@ -90,97 +116,6 @@
       <div class="shadow-text text">ASHRAF</div>
     </div>
 
-    <!-- light box div started here -->
-
-    <div class="container-fluid secondContainer bg-dark">
-      <ul>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05466_kwlv0n.jpg"
-            alt="A Toyota Previa covered in graffiti"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05621_zgtcco.jpg"
-            alt="Interesting living room light through a window"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05513_gfbiwi.jpg"
-            alt="Sara on a red bike"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05588_nb0dma.jpg"
-            alt="XOXO venue in between talks"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05459_ziuomy.jpg"
-            alt="Trees lit by green light during dusk"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05586_oj8jfo.jpg"
-            alt="Portrait of Justin Pervorse"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05465_dtkwef.jpg"
-            alt="Empty bike racks outside a hotel"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05626_ytsf3j.jpg"
-            alt="Heavy rain on an intersection"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05449_l9kukz.jpg"
-            alt="Payam Rajabi eating peanut chicken"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05544_aczrb9.jpg"
-            alt="Portland skyline sunset"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814785/photostream-photos/DSC05447_mvffor.jpg"
-            alt="Interior at Nong's"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814784/photostream-photos/DSC05501_yirmq8.jpg"
-            alt="A kimchi hotdog on a plate"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814784/photostream-photos/DSC05624_f5b2ud.jpg"
-            alt="Restaurant window with graffiti saying 'water'"
-          />
-        </li>
-        <li>
-          <img
-            src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1568814784/photostream-photos/DSC05623_dcpfva.jpg"
-            alt="Portrait of Jeremy Tanner"
-          />
-        </li>
-      </ul>
-    </div>
-
     <!-- clock div started here -->
 
     <div class="container-fluid thirdContainer">
@@ -215,6 +150,187 @@
       </div>
     </div>
 
+    <!-- live image gallery div started here -->
+
+    <div class="container-fluid bg-black p-5">
+      <div class="row">
+        <div class="gallery">
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://images.unsplash.com/photo-1448814100339-234df1d4005d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
+              alt=""
+            />
+            <figcaption>Daytona Beach <small>United States</small></figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
+              alt=""
+            />
+            <figcaption>
+              Териберка, gorod Severomorsk <small>Russia</small>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://images.unsplash.com/photo-1439798060585-62ab242d7724?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
+              alt=""
+            />
+            <figcaption>
+              Yellowstone National Park <small>United States</small>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://images.unsplash.com/photo-1440339738560-7ea831bf5244?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
+              alt=""
+            />
+            <figcaption>
+              Quiraing, Portree <small>United Kingdom</small>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://images.unsplash.com/photo-1441906363162-903afd0d3d52?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
+              alt=""
+            />
+            <figcaption>Highlands <small>United States</small></figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://images.indianexpress.com/2019/05/taj-mahal-amp.jpg"
+              alt=""
+            />
+            <figcaption>Taj Mahal, Agra <small>India</small></figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://images.thrillophilia.com/image/upload/s--48fr2Gab--/c_fill,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/239/746/original/1587752090_1576830344_auli1.jpg.jpg.jpg"
+              alt=""
+            />
+            <figcaption>Auli, Uttarakhand <small>India</small></figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Wild_horses1.jpg/1920px-Wild_horses1.jpg"
+              alt=""
+            />
+            <figcaption>Erciyes Mountain <small>Turkey</small></figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="http://www.thelandofsnows.com/wp-content/uploads/2015/03/Ladakh-Pangong-Lake-1024x618.jpg"
+              alt=""
+            />
+            <figcaption>Pangong Tso, Leh <small>India</small></figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://images.unsplash.com/photo-1606373664971-bf9b25eb508d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3171&q=80"
+              alt=""
+            />
+            <figcaption>Boston, MA <small>United States</small></figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://www.ootlah.com/wp-content/uploads/2021/04/shu-hero-778448884-1440x823-1.jpg"
+              alt=""
+            />
+            <figcaption>Marrakesh <small>Morocco</small></figcaption>
+          </figure>
+
+          <figure>
+            <img
+              class="gellaryImg"
+              src="https://c0.wallpaperflare.com/preview/682/317/188/india-mussoorie-landour-cloudscape.jpg"
+              alt=""
+            />
+            <figcaption>Mussoorie, Uttarakhand <small>India</small></figcaption>
+          </figure>
+
+          <!--        Copy the figure tags along with the content and paste it above this comment.
+                             Replace the link in the src attribute with the image link.
+                             Also change the content in figcaption and small tags according to the location
+                 -->
+        </div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          style="display: none"
+        >
+          <symbol id="close" viewBox="0 0 18 18">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              fill="#FFFFFF"
+              d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
+                            S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0
+                            l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,0-1.068L7.94,9.035L5.435,6.507
+                            c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,1.059,0
+                            s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"
+            />
+          </symbol>
+        </svg>
+      </div>
+    </div>
+
+    <!-- zoom product div started here -->
+
+    <div class="container-fluid col-12 mx-auto p-5 bg-black fivthContainer">
+      <div class="exzoom hidden mx-3" id="exzoom">
+        <div class="exzoom_img_box">
+          <ul class="exzoom_img_ul">
+            <li><img src="./imges/image (1).jpg" /></li>
+            <li><img src="./imges/image (2).jpg" /></li>
+            <li><img src="./imges/image (3).jpg" /></li>
+            <li><img src="./imges/image (4).jpg" /></li>
+            <li><img src="./imges/image (5).jpg" /></li>
+            <li><img src="./imges/image (6).jpg" /></li>
+            <li><img src="./imges/image (7).jpg" /></li>
+            <li><img src="./imges/image (8).jpg" /></li>
+          </ul>
+        </div>
+        <div class="exzoom_nav"></div>
+        <p class="exzoom_btn">
+          <a href="javascript:void(0);" class="exzoom_prev_btn"> < </a>
+          <a href="javascript:void(0);" class="exzoom_next_btn"> > </a>
+        </p>
+      </div>
+      <div>
+        <p class="pragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+          qui, suscipit, optio dolor adipisci placeat necessitatibus impedit
+          consectetur quidem iusto accusamus nisi obcaecati distinctio, repellat
+          cumque expedita unde dignissimos recusandae natus! Dolorem, facere rem
+          minima accusantium dolore labore eos. Nulla iusto deserunt laudantium
+          recusandae itaque corrupti laboriosam voluptates neque perferendis.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </div>
+
     <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<    js link    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 
     <script src="./Js/jquery-3.6.1.min.js"></script>
@@ -226,105 +342,59 @@
       src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"
     ></script>
 
-    <!-- text logo js link -->
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-1VDDWMRSTH");
-    </script>
-
-    <!-- litebox js link -->
-    <script src="./Plugins/image-lightbox-medium-cp/dist/cp-lightimg.min.js"></script>
-    <script>
-      $(function () {
-        $(document).on("click", "img", function () {
-          $(this).cpLightimg();
-        });
-      });
-    </script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-36251023-1"]);
-      _gaq.push(["_setDomainName", "jqueryscript.net"]);
-      _gaq.push(["_trackPageview"]);
-
-      (function () {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-
     <!-- clock js link -->
     <script src="./Plugins/digital-analog/Index.js" charset="utf-8"></script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-36251023-1"]);
-      _gaq.push(["_setDomainName", "jqueryscript.net"]);
-      _gaq.push(["_trackPageview"]);
-
-      (function () {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
 
     <!-- navbar js link -->
     <script src="./Plugins/sticky-expanding-sidebar-nav/js/jquery.ss.menu.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(".ss-menu").ssMenu();
-      });
-    </script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"
     ></script>
+
+    <!-- gallery image js link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Plugins/modern-photo-gallery/script.js"></script>
+
+    <!-- zoom product js link -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="./Plugins/Product-Carousel-Magnifying-Effect-exzoom/src/jquery.exzoom.js"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-1VDDWMRSTH");
+      $(".container").imagesLoaded(function () {
+        $("#exzoom").exzoom({
+          autoPlay: false,
+        });
+        $("#exzoom").removeClass("hidden");
+      });
     </script>
     <script>
-      try {
-        fetch(
-          new Request(
-            "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-            { method: "HEAD", mode: "no-cors" }
-          )
-        )
-          .then(function (response) {
-            return true;
-          })
-          .catch(function (e) {
-            var carbonScript = document.createElement("script");
-            carbonScript.src =
-              "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
-            carbonScript.id = "_carbonads_js";
-            document.getElementById("carbon-block").appendChild(carbonScript);
-          });
-      } catch (error) {
-        console.log(error);
-      }
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-36251023-1"]);
+      _gaq.push(["_setDomainName", "jqueryscript.net"]);
+      _gaq.push(["_trackPageview"]);
+
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+    <!-- wow js linked  -->
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
     </script>
   </body>
 </html>
